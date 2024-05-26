@@ -27,15 +27,16 @@ test('multiple windows test', async ({page}) => {
         console.log('Page URL: ' + tab.url());
     })
 
-    let facebookPage: Page;
+    let facebookPage: Page | null = null; 
     for(let index = 0; index < pages.length; index++) {
         const url = pages[index].url();
         if(url == "https://web.facebook.com/lambdatest/?_rdc=1&_rdr") {
-            facebookPage = pages[index];
+            facebookPage = pages[index]; 
         }
     }
-    const text = await facebookPage.textContent("//h1")
-    console.log(text);
-
+    if (facebookPage) { 
+        const text = await facebookPage.textContent("//h1")
+        console.log(text);
+    }
     
   });
