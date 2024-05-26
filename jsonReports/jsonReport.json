@@ -48,7 +48,7 @@
         "testDir": "C:/Learning/Playwright2",
         "testIgnore": [],
         "testMatch": [
-          "tests/frames.test.ts"
+          "tests/windows.test.ts"
         ],
         "timeout": 30000
       }
@@ -61,13 +61,13 @@
   },
   "suites": [
     {
-      "title": "tests\\frames.test.ts",
-      "file": "tests/frames.test.ts",
+      "title": "tests\\windows.test.ts",
+      "file": "tests/windows.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "interact with Frames",
+          "title": "multiple windows test",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,21 +81,46 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 8568,
+                  "duration": 13263,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "No.frame: 23\n"
+                      "text": "https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
+                    },
+                    {
+                      "text": "No of tab: 3\n"
+                    },
+                    {
+                      "text": "Page URL: https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
+                    },
+                    {
+                      "text": "Page URL: https://web.facebook.com/lambdatest/?_rdc=1&_rdr\n"
+                    },
+                    {
+                      "text": "Page URL: https://twitter.com/x/migrate?tok=eyJlIjoiL2ludGVudC9mb2xsb3c%2Fc2NyZWVuX25hbWU9TGFtYmRhdGVzdGluZyIsInQiOjE3MTY3MzQxNDB9z%2F9ixYW1%2FDvjw%2FMIgZiOLA%3D%3D\n"
+                    },
+                    {
+                      "text": "LambdaTest \n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-05-25T16:44:44.704Z",
+                  "startTime": "2024-05-26T14:35:31.178Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Learning\\Playwright2\\test-results\\tests-frames-interact-with-Frames\\video.webm"
+                      "path": "C:\\Learning\\Playwright2\\test-results\\tests-windows-multiple-windows-test\\video-2.webm"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Learning\\Playwright2\\test-results\\tests-windows-multiple-windows-test\\video-1.webm"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Learning\\Playwright2\\test-results\\tests-windows-multiple-windows-test\\video.webm"
                     }
                   ]
                 }
@@ -103,9 +128,9 @@
               "status": "expected"
             }
           ],
-          "id": "ee77907c2abffffa1fe6-6dbbae4c4da5cac2638e",
-          "file": "tests/frames.test.ts",
-          "line": 5,
+          "id": "98c21ebe87e39c315e15-a4fe22cdf73c67bfa154",
+          "file": "tests/windows.test.ts",
+          "line": 15,
           "column": 5
         }
       ]
@@ -113,8 +138,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-05-25T16:44:43.777Z",
-    "duration": 10169.133,
+    "startTime": "2024-05-26T14:35:30.311Z",
+    "duration": 14750.259,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
