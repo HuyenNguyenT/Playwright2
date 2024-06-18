@@ -81,12 +81,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 37284,
+                  "duration": 18959,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-06-16T17:42:58.874Z",
+                  "startTime": "2024-06-18T16:27:05.874Z",
                   "attachments": [
                     {
                       "name": "video",
@@ -109,8 +109,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-06-16T17:42:58.053Z",
-    "duration": 38558.789,
+    "startTime": "2024-06-18T16:27:05.098Z",
+    "duration": 20100.814000000002,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

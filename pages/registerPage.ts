@@ -38,15 +38,17 @@ async isSubcribeChecked(){
 async clickTermandCondition() {
     await this.page.click("//label[@for='input-agree']");
 }
-async clickContinueRegisterPage() {
-    await this.page.click("//input[@value='Continue']");
-}
+// async clickContinueRegisterPage() {
+//     await this.page.click("//input[@value='Continue']");
+// }
 
-//   async clickContinueRegisterPage(){
-//     await Promise.all([
-//         this.page.waitForNavigation({waitUntil: "networkidle"}),
-//         this.page.click("//input[@value='Continue']")
-//     ])
+  async clickContinueRegisterPage(){
+    // await Promise.all([
+    //     this.page.waitForNavigation(),
+    //     this.page.locator("//input[@value='Continue']").click()
+    // ])
+        await this.page.locator("//input[@value='Continue']").click();
+        await this.page.waitForNavigation({ waitUntil: 'load' });
 
-//   }
+  }
 }

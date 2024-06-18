@@ -16,6 +16,11 @@ export default class Login{
     }
 
     async clickLogingBtn(){
-        await this.page.locator("//input[value='Login']")
+    //    await this.page.locator("//input[@value='Login']").click()
+        await Promise.all([
+            this.page.waitForNavigation(),
+            this.page.locator("//input[@value='Login']").click()
+        ])
+    
     }
 }
