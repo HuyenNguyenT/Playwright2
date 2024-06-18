@@ -7,6 +7,13 @@ export default class Login{
 
     constructor(public page : Page){}
 
+    async login(email : string,password : string){
+        await this.enterEMail(email);
+        await this.enterLoginPassword(password);
+        await this.clickLogingBtn();
+    }
+    
+
     async enterEMail(email : string){
         await this.page.locator("#input-email").type(email)
     }

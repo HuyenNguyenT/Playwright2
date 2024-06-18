@@ -48,7 +48,6 @@ async clickTermandCondition() {
     //     this.page.locator("//input[@value='Continue']").click()
     // ])
         await this.page.locator("//input[@value='Continue']").click();
-        await this.page.waitForNavigation({ waitUntil: 'load' });
-
+        // await this.page.waitForNavigation({ waitUntil: 'load' });
   }
 }
