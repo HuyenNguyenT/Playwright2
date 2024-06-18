@@ -48,31 +48,31 @@
         "testDir": "C:/Learning/Playwright2",
         "testIgnore": [],
         "testMatch": [
-          "tests/calendar.test.ts"
+          "pomtest/addToCart.test.ts"
         ],
         "timeout": 30000
       }
     ],
     "shard": null,
     "updateSnapshots": "missing",
-    "version": "1.44.0",
+    "version": "1.44.1",
     "workers": 4,
     "webServer": null
   },
   "suites": [
     {
-      "title": "tests\\calendar.test.ts",
-      "file": "tests/calendar.test.ts",
+      "title": "pomtest\\addToCart.test.ts",
+      "file": "pomtest/addToCart.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "calendar test",
+          "title": "Register test_01",
           "ok": true,
           "tags": [],
           "tests": [
             {
-              "timeout": 30000,
+              "timeout": 50000,
               "annotations": [],
               "expectedStatus": "passed",
               "projectId": "",
@@ -81,17 +81,17 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 7728,
+                  "duration": 37284,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-05-26T14:57:53.140Z",
+                  "startTime": "2024-06-16T17:42:58.874Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Learning\\Playwright2\\test-results\\tests-calendar-calendar-test\\video.webm"
+                      "path": "C:\\Learning\\Playwright2\\test-results\\pomtest-addToCart-Register-test-01\\video.webm"
                     }
                   ]
                 }
@@ -99,9 +99,9 @@
               "status": "expected"
             }
           ],
-          "id": "68c95afee124c9066c67-4979af7c64890fcd7038",
-          "file": "tests/calendar.test.ts",
-          "line": 4,
+          "id": "1c188a18f2ecab048a02-93aee008ae0b896f8c3b",
+          "file": "pomtest/addToCart.test.ts",
+          "line": 9,
           "column": 5
         }
       ]
@@ -109,8 +109,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-05-26T14:57:52.205Z",
-    "duration": 9140.734999999999,
+    "startTime": "2024-06-16T17:42:58.053Z",
+    "duration": 38558.789,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
