@@ -48,7 +48,7 @@
         "testDir": "C:/Learning/Playwright2",
         "testIgnore": [],
         "testMatch": [
-          "pomtest/addToCart.test.ts"
+          "pomtest/addToCartUsingFixtrue.test.ts"
         ],
         "timeout": 30000
       }
@@ -61,16 +61,16 @@
   },
   "suites": [
     {
-      "title": "pomtest\\addToCart.test.ts",
-      "file": "pomtest/addToCart.test.ts",
+      "title": "pomtest\\addToCartUsingFixtrue.test.ts",
+      "file": "pomtest/addToCartUsingFixtrue.test.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Page object test demo",
-          "file": "pomtest/addToCart.test.ts",
-          "line": 12,
+          "file": "pomtest/addToCartUsingFixtrue.test.ts",
+          "line": 4,
           "column": 6,
           "specs": [
             {
@@ -88,17 +88,17 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 18367,
+                      "duration": 17539,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-06-18T16:51:52.048Z",
+                      "startTime": "2024-06-19T16:50:29.173Z",
                       "attachments": [
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "C:\\Learning\\Playwright2\\test-results\\pomtest-addToCart-Page-object-test-demo-Register-test-01\\video.webm"
+                          "path": "C:\\Learning\\Playwright2\\test-results\\pomtest-addToCartUsingFixt-1bdc8--test-demo-Register-test-01\\video.webm"
                         }
                       ]
                     }
@@ -106,9 +106,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "1c188a18f2ecab048a02-879da2f6f9dbc1bc5df0",
-              "file": "pomtest/addToCart.test.ts",
-              "line": 13,
+              "id": "e69b9865e38f737596ef-a1c2184d149be7f5db6a",
+              "file": "pomtest/addToCartUsingFixtrue.test.ts",
+              "line": 5,
               "column": 9
             },
             {
@@ -126,17 +126,17 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 14252,
+                      "duration": 15854,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-06-18T16:52:10.631Z",
+                      "startTime": "2024-06-19T16:50:47.017Z",
                       "attachments": [
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "C:\\Learning\\Playwright2\\test-results\\pomtest-addToCart-Page-object-test-demo-Login-test-02\\video.webm"
+                          "path": "C:\\Learning\\Playwright2\\test-results\\pomtest-addToCartUsingFixt-ab5ad-ect-test-demo-Login-test-02\\video.webm"
                         }
                       ]
                     }
@@ -144,9 +144,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "1c188a18f2ecab048a02-c45d622780260a36fa78",
-              "file": "pomtest/addToCart.test.ts",
-              "line": 28,
+              "id": "e69b9865e38f737596ef-3c09c54b848bdc07d238",
+              "file": "pomtest/addToCartUsingFixtrue.test.ts",
+              "line": 19,
               "column": 9
             },
             {
@@ -164,7 +164,7 @@
                     {
                       "workerIndex": 0,
                       "status": "timedOut",
-                      "duration": 30445,
+                      "duration": 31090,
                       "error": {
                         "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                         "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -177,17 +177,17 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-06-18T16:52:24.893Z",
+                      "startTime": "2024-06-19T16:51:02.882Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Learning\\Playwright2\\test-results\\pomtest-addToCart-Page-object-test-demo-Add-to-cart-test-03\\test-failed-1.png"
+                          "path": "C:\\Learning\\Playwright2\\test-results\\pomtest-addToCartUsingFixt-3e04c-st-demo-Add-to-cart-test-03\\test-failed-1.png"
                         },
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "C:\\Learning\\Playwright2\\test-results\\pomtest-addToCart-Page-object-test-demo-Add-to-cart-test-03\\video.webm"
+                          "path": "C:\\Learning\\Playwright2\\test-results\\pomtest-addToCartUsingFixt-3e04c-st-demo-Add-to-cart-test-03\\video.webm"
                         }
                       ]
                     }
@@ -195,9 +195,9 @@
                   "status": "unexpected"
                 }
               ],
-              "id": "1c188a18f2ecab048a02-8a75ab6f17336c67f124",
-              "file": "pomtest/addToCart.test.ts",
-              "line": 37,
+              "id": "e69b9865e38f737596ef-143d06e04c172943e845",
+              "file": "pomtest/addToCartUsingFixtrue.test.ts",
+              "line": 27,
               "column": 9
             }
           ]
@@ -207,8 +207,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-06-18T16:51:51.299Z",
-    "duration": 64199.189,
+    "startTime": "2024-06-19T16:50:28.200Z",
+    "duration": 65982.11700000001,
     "expected": 2,
     "skipped": 0,
     "unexpected": 1,

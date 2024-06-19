@@ -10,6 +10,10 @@ const password = "Koushik@123";
 // const email = "testauto@test2.gmail.com";
 // const password = "Koushik@123";
 test.describe("Page object test demo", async() => {
+    // test.use({
+    //     baseURL: "somsomos"
+    // })
+
     test("Register test_01", async ({page,baseURL}) => {
         test.setTimeout(50000)
         const register = new RegisterPage(page);
