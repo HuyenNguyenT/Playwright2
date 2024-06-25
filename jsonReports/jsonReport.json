@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 2
     },
     "preserveOutput": "always",
     "reporter": [
@@ -43,8 +43,22 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {},
-        "id": "",
-        "name": "",
+        "id": "chrome:Latest:MacOS Catalina@lambdatest",
+        "name": "chrome:Latest:MacOS Catalina@lambdatest",
+        "testDir": "C:/Learning/Playwright2",
+        "testIgnore": [],
+        "testMatch": [
+          "pomtest/addToCartUsingFixtrue.test.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Learning/Playwright2/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chrome:Latest:Windows 10@lambdatest",
+        "name": "chrome:Latest:Windows 10@lambdatest",
         "testDir": "C:/Learning/Playwright2",
         "testIgnore": [],
         "testMatch": [
@@ -70,101 +84,137 @@
         {
           "title": "Page object test demo",
           "file": "pomtest/addToCartUsingFixtrue.test.ts",
-          "line": 4,
+          "line": 8,
           "column": 6,
           "specs": [
             {
               "title": "Register test_01",
               "ok": true,
-              "tags": [],
+              "tags": [
+                "lambdatest"
+              ],
               "tests": [
                 {
                   "timeout": 50000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
+                  "projectId": "chrome:Latest:MacOS Catalina@lambdatest",
+                  "projectName": "chrome:Latest:MacOS Catalina@lambdatest",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 17539,
+                      "duration": 14063,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-06-19T16:50:29.173Z",
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Learning\\Playwright2\\test-results\\pomtest-addToCartUsingFixt-1bdc8--test-demo-Register-test-01\\video.webm"
-                        }
-                      ]
+                      "startTime": "2024-06-25T17:05:02.532Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 50000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome:Latest:Windows 10@lambdatest",
+                  "projectName": "chrome:Latest:Windows 10@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 16895,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-06-25T17:05:02.541Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "e69b9865e38f737596ef-a1c2184d149be7f5db6a",
+              "id": "e69b9865e38f737596ef-c290a12f61cc142910cf",
               "file": "pomtest/addToCartUsingFixtrue.test.ts",
-              "line": 5,
+              "line": 10,
               "column": 9
             },
             {
               "title": "Login test_02",
               "ok": true,
-              "tags": [],
+              "tags": [
+                "lambdatest"
+              ],
               "tests": [
                 {
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
+                  "projectId": "chrome:Latest:MacOS Catalina@lambdatest",
+                  "projectName": "chrome:Latest:MacOS Catalina@lambdatest",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 15854,
+                      "duration": 12987,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-06-19T16:50:47.017Z",
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Learning\\Playwright2\\test-results\\pomtest-addToCartUsingFixt-ab5ad-ect-test-demo-Login-test-02\\video.webm"
-                        }
-                      ]
+                      "startTime": "2024-06-25T17:05:16.626Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome:Latest:Windows 10@lambdatest",
+                  "projectName": "chrome:Latest:Windows 10@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 29103,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-06-25T17:05:19.471Z",
+                      "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "e69b9865e38f737596ef-3c09c54b848bdc07d238",
+              "id": "e69b9865e38f737596ef-32321c93a1af5d4ffc8f",
               "file": "pomtest/addToCartUsingFixtrue.test.ts",
-              "line": 19,
+              "line": 24,
               "column": 9
             },
             {
               "title": "Add to cart test_03",
               "ok": false,
-              "tags": [],
+              "tags": [
+                "lambdatest"
+              ],
               "tests": [
                 {
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
+                  "projectId": "chrome:Latest:MacOS Catalina@lambdatest",
+                  "projectName": "chrome:Latest:MacOS Catalina@lambdatest",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "timedOut",
-                      "duration": 31090,
+                      "duration": 33492,
                       "error": {
                         "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                         "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -172,22 +222,68 @@
                       "errors": [
                         {
                           "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Learning\\Playwright2\\pages\\specialHotPage.ts",
+                            "column": 21,
+                            "line": 8
+                          },
+                          "message": "Error: page.hover: Target page, context or browser has been closed\nCall log:\n  \u001b[2m- waiting for locator('//div[@class=\\'image\\']/a')\u001b[22m\n\n\n\u001b[90m   at \u001b[39mpages\\specialHotPage.ts:8\n\n\u001b[0m \u001b[90m  6 |\u001b[39m\n \u001b[90m  7 |\u001b[39m \u001b[36masync\u001b[39m addFirstProductToTheCard(){\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  8 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mhover(\u001b[32m\"//div[@class='image']/a\"\u001b[39m\u001b[33m,\u001b[39m {\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  9 |\u001b[39m         strict\u001b[33m:\u001b[39m\u001b[36mfalse\u001b[39m\n \u001b[90m 10 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(\u001b[32m\"//button[@title='Add to Cart'])\"\u001b[39m)\u001b[0m\n\n\u001b[2m    at SpecialHotPage.addFirstProductToTheCard (C:\\Learning\\Playwright2\\pages\\specialHotPage.ts:8:21)\u001b[22m\n\u001b[2m    at C:\\Learning\\Playwright2\\pomtest\\addToCartUsingFixtrue.test.ts:36:27\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-06-19T16:51:02.882Z",
+                      "startTime": "2024-06-25T17:05:29.637Z",
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Learning\\Playwright2\\test-results\\pomtest-addToCartUsingFixt-3e04c-st-demo-Add-to-cart-test-03\\test-failed-1.png"
+                          "path": "C:\\Learning\\Playwright2\\test-results\\pomtest-addToCartUsingFixt-3e04c-st-demo-Add-to-cart-test-03-chrome-Latest-MacOS-Catalina-lambdatest\\test-failed-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                },
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome:Latest:Windows 10@lambdatest",
+                  "projectName": "chrome:Latest:Windows 10@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "timedOut",
+                      "duration": 31524,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
                         },
                         {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Learning\\Playwright2\\test-results\\pomtest-addToCartUsingFixt-3e04c-st-demo-Add-to-cart-test-03\\video.webm"
+                          "location": {
+                            "file": "C:\\Learning\\Playwright2\\pages\\specialHotPage.ts",
+                            "column": 21,
+                            "line": 8
+                          },
+                          "message": "Error: page.hover: Target page, context or browser has been closed\nCall log:\n  \u001b[2m- waiting for locator('//div[@class=\\'image\\']/a')\u001b[22m\n\n\n\u001b[90m   at \u001b[39mpages\\specialHotPage.ts:8\n\n\u001b[0m \u001b[90m  6 |\u001b[39m\n \u001b[90m  7 |\u001b[39m \u001b[36masync\u001b[39m addFirstProductToTheCard(){\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  8 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mhover(\u001b[32m\"//div[@class='image']/a\"\u001b[39m\u001b[33m,\u001b[39m {\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  9 |\u001b[39m         strict\u001b[33m:\u001b[39m\u001b[36mfalse\u001b[39m\n \u001b[90m 10 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(\u001b[32m\"//button[@title='Add to Cart'])\"\u001b[39m)\u001b[0m\n\n\u001b[2m    at SpecialHotPage.addFirstProductToTheCard (C:\\Learning\\Playwright2\\pages\\specialHotPage.ts:8:21)\u001b[22m\n\u001b[2m    at C:\\Learning\\Playwright2\\pomtest\\addToCartUsingFixtrue.test.ts:36:27\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-06-25T17:05:48.595Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Learning\\Playwright2\\test-results\\pomtest-addToCartUsingFixt-3e04c-st-demo-Add-to-cart-test-03-chrome-Latest-Windows-10-lambdatest\\test-failed-1.png"
                         }
                       ]
                     }
@@ -195,9 +291,9 @@
                   "status": "unexpected"
                 }
               ],
-              "id": "e69b9865e38f737596ef-143d06e04c172943e845",
+              "id": "e69b9865e38f737596ef-90af4157d1e2af7384a2",
               "file": "pomtest/addToCartUsingFixtrue.test.ts",
-              "line": 27,
+              "line": 32,
               "column": 9
             }
           ]
@@ -207,11 +303,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-06-19T16:50:28.200Z",
-    "duration": 65982.11700000001,
-    "expected": 2,
+    "startTime": "2024-06-25T17:05:01.629Z",
+    "duration": 78625.22,
+    "expected": 4,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 2,
     "flaky": 0
   }
 }

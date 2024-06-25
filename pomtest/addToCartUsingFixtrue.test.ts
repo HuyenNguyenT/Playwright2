@@ -1,7 +1,12 @@
 import {expect, test} from "../base/pomFixture";
 import * as data from "../test-data/addTocar.test-data.json"
 
+//run test by firefox
+// test.use({
+//     browserName: "firefox"
+// })
 test.describe("Page object test demo", async() => {
+
     test("Register test_01", async ({page,baseURL,registerPage}) => {
         test.setTimeout(50000)
     await page.goto(`${baseURL}route=account/register`);

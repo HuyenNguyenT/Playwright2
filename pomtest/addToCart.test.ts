@@ -14,9 +14,10 @@ test.describe("Page object test demo", async() => {
     //     baseURL: "somsomos"
     // })
 
-    test("Register test_01", async ({page,baseURL}) => {
-        test.setTimeout(50000)
-        const register = new RegisterPage(page);
+    test("Register test_01", async ({ page, baseURL }, testInfo) => {
+        console.log('TITLE: ' + testInfo.title);
+        // test.setTimeout(50000)
+    const register = new RegisterPage(page);
     await page.goto(`${baseURL}route=account/register`);
     await register.enterFirstName("Koushik");
     await register.enterLastName("Chatterjee");
@@ -26,7 +27,8 @@ test.describe("Page object test demo", async() => {
     await register.enterConfirmPass(password)
     expect(await register.isSubcribeChecked()).toBeChecked()
     await register.clickTermandCondition();
-    register.clickContinueRegisterPage()
+    register.clickContinueRegisterPage();
+    console.log('STATUS: ' + testInfo.status);
     })
     
     test("Login test_02", async({page,baseURL}) => {
